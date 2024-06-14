@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Elisa's Revenge</title>
+    <link rel="stylesheet" href="Browseransicht.css">
+</head>
+<body>
+    <h1>Mein erstes Spiel: Selbst erweitertes Spiel aus Tutorial</h1>
+    <button id="startButton" onclick="startGame()">Spiel starten</button>
+    <div id="infoBox">Points: 
+        <div id="pointsReached">?</div>
+    </div>
+
+
+    <script src="gameloop.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/pixi.js@7.x/dist/pixi.min.js"></script>
+    <script src="app1.js"></script>
+    
+    <div id="opponent">
+        Scegli chi vuoi combattere:<br>
+        <button onclick="choseMelanie()">&#128013; Melanzania &#128013;</button>
+        <button onclick="chosePagano()">&#128050; Bágano &#128050;</button>
+        <button onclick="choseCavalla()">&#128052; Cavalla &#128052;</button>
+    </div>
+
+    <section id="intro" class="textbereich">
+        <h4>Benvenuta, cara Elisa!</h4>
+        <p>Tanti auguri ecc.</p>
+    </section>
+
+    <section id="manual" class="textbereich">
+        <h4>Come si gioca:
+        </h4>
+    </section>
+
+    <!--script>alert("Click Ok to start the game");</script>
+</body>
+</html>
