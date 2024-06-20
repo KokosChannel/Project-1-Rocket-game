@@ -3,6 +3,7 @@ const ufoList = [];
 
 document.body.appendChild(app.view);
 
+function startGame(){
  //Hier wird die Ressource für den Spieler definiert, sowie die Anfangsposition und Größe.
     const rocket = PIXI.Sprite.from('assets/rocket.png');
         rocket.scale.x = 0.07;
@@ -61,4 +62,4 @@ document.body.appendChild(app.view);
                     app.stage.removeChild(bullet);
                     //updatePoints();
                 });
-            }
+            }}
