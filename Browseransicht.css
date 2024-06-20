@@ -1,7 +1,13 @@
 body{
-    background-color: burlywood;
+    background-color: white;
     width: 800px;
 }
+
+#pageTitle {
+    text-align: center;
+    
+}
+
 
 #infoBox {
     border:solid; 
@@ -10,47 +16,23 @@ body{
     padding: 2px;
 }
 
-.textbereich {
-    padding-left:5px;
-    padding-top:0;
-    border: dotted;
-    margin-bottom:5px;
+#startButton {
+    display: block;
+    width: 50%;
+    border: solid;
+    background-color: rgb(74, 197, 74);
+    padding: 10px;
+    box-sizing: border-box;
+    border-radius: 20px;
+    margin: 0 auto 10px auto;
+    text-align: center;
+    font-size: x-large;
+    font-weight: bold;
 }
 
-#opponent {
-    background-color: whitesmoke;
-    margin-bottom:5px;
-    border: dotted;
-    padding: 5px;
-    font-style: normal;
-    font-size: medium;
-}
-
-#opponent button {
-    background-color: burlywood;
-    padding:10px;
-    border: none;
-    border-radius:10px;
-}
-
-#intro {
-    background-color: whitesmoke;
-}
-
-#manual {
-    background-color: whitesmoke;
-}
-
-body{
-    background-color: burlywood;
-    width: 800px;
-}
-
-#infoBox {
-    border:solid; 
-    text-align:center; 
-    margin-bottom:10px;
-    padding: 2px;
+#startButton:hover {
+    background-color: darkgreen; /* Ändert die Hintergrundfarbe bei Mouseover */
+    transform: scale(1.05); /* Vergrößert den Button leicht bei Mouseover */
 }
 
 .textbereich {
